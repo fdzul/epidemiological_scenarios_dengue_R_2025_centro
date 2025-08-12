@@ -81,3 +81,21 @@ Que el personal de vectores desarrolle las competencias específicas para realiz
 ### Actividad 1.
 
 1.  Bajar la carpeta focos de transmisión persistente de github de acuerdo a su estado.
+
+
+
+## Laboratorio de la Unidad VI
+
+### Objetivo.
+
+Que el personal de vectores desarrolle las competencias específicas para realizar diseñar un Dashboard y publicarlo en internet.
+
+### Actividad 1.
+
+1. Bajar la plantilla del Dashboard.
+2. Sacar su cuenta de [github](https://github.com) y [netlify](https://www.netlify.com)
+3. Instalar git
+4. Registrar el usuario y email en la maquina
+4. Instalar git CLI
+5. Conectar git con github
+6. Publicar el Dashboard

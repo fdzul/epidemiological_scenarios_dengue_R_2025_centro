@@ -4,29 +4,36 @@ title: ""
 
 ## Estados convocados
 
-Campeche, Chiapas, Guerrero, Oaxaca, Quintana Roo,Tabasco, Veracruz y Yucatán.
+Aguascalientes, Ciudad de México, Colima, Estado de México,
+Durango, Guerrero, Jalisco, Michoacán, Morelos, Nayarit, Sinaloa, Puebla, Querétaro, Tlaxcala y Zacatecas.
 
 ## Formato del Curso
 
-Curso presencial de Lunes a Viernes.
+-   Curso presencial de Martes a Viernes.
+
+-   09:00 a 18:00 horas
+
 
 ## Sede
 
--   Salon **Nona Mia**, Avenida Miguel Alemán, Área Ah, CP 24010 San Francisco de Campeche, Campeche.
+-   Centro Universitario de Ciencias de la Salud.
 
--   ⁠Hotel recomendado: City Express, Av. Adolfo Ruiz Cortinez. 12, Fracc. Sector Fundadores, Lote Área, Área Ah, 24028 San Francisco de Campeche, Campeche.
+-   Sierra Mojada 950, Col. Independencia, C.P. 44340, Guadalajara, Jalisco, México.
 
 ```{r, echo=FALSE}
-tibble::tibble(lat = 19.848835,
-               long = -90.533775) |>
+tibble::tibble(lat = c(20.687727, 20.686879),
+               long = c(-103.330574, -103.330942),
+               auditorio = c("Dr. Rodolfo Morán González",
+                             "Mtra Patricia Martínez")) |>
     sf::st_as_sf(coords = c("long", "lat"),
                  crs = 4326) |>
-mapview::mapview(legend = F)
+mapview::mapview(zcol = "auditorio",
+                 layer.name = "Auditorio")
 ```
 
 ## Fecha
 
-21 al 24 de Junio de 2025
+Del 19 al 22 de Agosto del 2025
 
 ## Requisitos de conceptos teóricos
 
@@ -64,7 +71,7 @@ Es deseable tener experiencia en R o Python o cualquier otro lenguaje de program
 
 Las inscripciones estarán abiertas tan pronto como el Director & Subdirector de Vectores del CENAPRECE autorize las unidades didácticas del curso. El link para la inscripción la encontrarán en este apartado.
 
-[Inscripción](https://docs.google.com/forms/d/1NkfcigcOUpEU_CZiEwqVk3KB-eesDk5B9FmZouuNev0/edit#settings)
+[Inscripción](https://docs.google.com/forms/d/e/1FAIpQLSfQxc3t8rBwtJDxUn-LWmDp-kaMQPkTugrOP6aJtKKgi47LqA/viewform)
 
 ## Examen
 
@@ -72,4 +79,4 @@ Se realizará un examen previo y posterior al curso. El exámen previo se realiz
 
 [Examen Previo](https://docs.google.com/forms/d/1V1DptfSkH-LxX-7qJrVH1LLumK0Ropi10Ak_eLSxn9c/edit?pli=1)
 
-[Examen Posterior]()
+

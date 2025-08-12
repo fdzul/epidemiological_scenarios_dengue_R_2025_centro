@@ -16,7 +16,7 @@ tibble::tibble(Tema = c("Instalar R",
                          "Instalación de Paquetes para el análisis espacial",
                          "Instalación de Paquetes desarrollados por CENAPRECE-InDRE",
                         "Datos Espaciales"),
-               Instructor = c(rep("Felipe A. Dzul Manzanilla & Jonathan S. Mendoza Cruz", times = 9))) |>
+               Instructor = c(rep("Felipe Dzul-Manzanilla, Jonathan Mendoza-Cruz & Arath Martínez-Flores", times = 9))) |>
     reactable::reactable(defaultPageSize = 10,
                          theme = reactablefmtr::flatly(),
                          filterable = FALSE,
@@ -125,6 +125,26 @@ tibble::tibble(Tema = c("Hotspots de casos",
                Instructor = c(rep("Felipe Antonio Dzul Manzanilla", 
                                   times = 5))) |>
     reactable::reactable(defaultPageSize = 5,
+                         theme = reactablefmtr::flatly(),
+                         filterable = FALSE,
+                         striped = TRUE,
+                         minRows = 5,
+                         resizable = TRUE, 
+                         wrap = FALSE, 
+                         bordered = TRUE)
+
+```
+
+
+### Módulo VI. Dashboard de la transmisión activa
+
+```{r temario_modulo_VI, echo=FALSE}
+tibble::tibble(Tema = c("Creación de un Dashboard",
+                        "Git & Github",
+                        "Netlify"),
+               Instructor = c(rep("Felipe Antonio Dzul Manzanilla", 
+                                  times = 3))) |>
+    reactable::reactable(defaultPageSize = 4,
                          theme = reactablefmtr::flatly(),
                          filterable = FALSE,
                          striped = TRUE,

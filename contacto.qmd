@@ -50,9 +50,9 @@ insp: <https://insp.mx/centros/sistemas-de-salud/investigador/gomez-dantes-hecto
 
 ------------------------------------------------------------------------
 
-# Dr. Juan Octavio Ávila López
+# Dr. Miguel Becerra
 
-![](imagenes/octavio.jpeg)
+![](imagenes/dr_miguel_becerra.png)
 
 Telefono personal: 9811602535
 
