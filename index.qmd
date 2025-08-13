@@ -1,7 +1,7 @@
 ---
 title: ""
 ---
-![](imagenes/logo.jpg)
+![](imagenes/logo.jpeg)
 
 # **Objetivo General**
 
