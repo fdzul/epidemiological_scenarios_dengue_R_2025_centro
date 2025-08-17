@@ -28,8 +28,7 @@ tibble::tibble(Tema = c("Instalar R",
 
 ```
 
--   [Instalación de Paquetes](https://calm-hummingbird-41cb33.netlify.app/talks/pkg_installation/#/), [dengueverse](https://calm-hummingbird-41cb33.netlify.app/talks/dengueverse/#/dengueverse), [Datos Espaciales](https://calm-hummingbird-41cb33.netlify.app/talks/spatial_data/#/)
-
+-   [Instalación de Paquetes](https://jovial-sunburst-ee3a1b.netlify.app/talks/pkg_installation/#/), [dengueverse](https://calm-hummingbird-41cb33.netlify.app/talks/dengueverse/#/dengueverse), [Datos Espaciales](https://calm-hummingbird-41cb33.netlify.app/talks/spatial_data/#/)
 
 ### Módulo II. Focos de Transmisión Activa de las Arbovirosis.
 
@@ -84,8 +83,7 @@ tibble::tibble(Temas = c("Bases del SINAVE",
 
 -   [Análisis Espacial del Dengue en R](https://animated-longma-729cee.netlify.app/talks/spatial_analysis_dengue/#1), [Hotspots de Transmisión del Dengue](https://animated-longma-729cee.netlify.app/talks/hotspots_cases/#1), [Hotspots de Transmisión del Dengue en R](https://animated-longma-729cee.netlify.app/talks/hotspots_cases_r/#1)
 
-
-### Módulo IV. Hotspots de la abundancia  de huevos del vector del dengue
+### Módulo IV. Hotspots de la abundancia de huevos del vector del dengue
 
 ```{r temario_modulo_IV, echo=FALSE}
 tibble::tibble(Tema = c("Bajar las bases de Ovitrampas",
@@ -113,7 +111,6 @@ tibble::tibble(Tema = c("Bajar las bases de Ovitrampas",
 
 -   [Hotspots de Vector del Dengue en R](https://animated-longma-729cee.netlify.app/talks/hotspots_eggs_r/#1)
 
-
 ### Módulo V. Modelo estratégico de focalización del dengue en México
 
 ```{r temario_modulo_V, echo=FALSE}
@@ -135,7 +132,6 @@ tibble::tibble(Tema = c("Hotspots de casos",
 
 ```
 
-
 ### Módulo VI. Dashboard de la transmisión activa
 
 ```{r temario_modulo_VI, echo=FALSE}
@@ -154,5 +150,3 @@ tibble::tibble(Tema = c("Creación de un Dashboard",
                          bordered = TRUE)
 
 ```
-
-
